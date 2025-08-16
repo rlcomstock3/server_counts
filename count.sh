@@ -30,5 +30,6 @@ fi
 if [ "$i" -eq 0 ]; then
 	echo "No game users"
 else
-	echo "There are current game users"
+	echo "There are current game users sleeping"
+	sudo systemctl suspend
 fi
